@@ -11,7 +11,7 @@ Folders
 
 The *table* folder contains a code in *R* that extracts information from Wikipedia about the metro system of different cities. This code will write a [csv table](https://github.com/celacanto/metro-systems-around-the-world/blob/master/table/subway.csv) with the summary informations of the metros systems.
 
-The *plots* folder contain a *R* code that plots the population against the the metros rides in each city. Different plots highlight different continent.  The idea of ​​using as a metric number of trips divided by the population has been proposed by [Rafael S. Calsaverini](https://twitter.com/rcalsaverini/status/422701192045924352).
+The *plots* folder contain a *R* codes to plot the data. 
 
 Data on the CSV table
 ----------------------
@@ -28,3 +28,14 @@ Here's a summary of the meaning of the not self explanatory columns:
 * **Stations** -- Sum of the number of stations of all the systems considered for the city.
 * **Systems** -- The city's systems considered.
 * **RidePerPop** -- Rides/Population
+
+Plots
+-----------------------
+
+Now there is two type of plots:
+
+1. [System Lenght versus Year of System Oppening](https://github.com/celacanto/metro-systems-around-the-world/blob/master/plots/yearOpenXlength.R)
+2. [Rides versus Population](https://github.com/celacanto/metro-systems-around-the-world/blob/master/plots/ridesXpopulation.R) 
+
+
+The first one is what I did to make some sense from articles [like this one](http://www.bbc.co.uk/portuguese/noticias/2013/01/130111_metro_comparacao_sp_londres_rw.shtml). The other is a an attempt to also consider the size of the city in comparing the metro. The idea of using as a metric number of trips divided by the population has been proposed by [Rafael S. Calsaverini](https://twitter.com/rcalsaverini/status/422701192045924352). Both codes make a version with all the cities and other versions where the different continents are highlighted.
