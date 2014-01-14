@@ -13,14 +13,14 @@ The *table* folder contains a code in *R* that extracts information from Wikiped
 
 The *plots* folder contain a *R* code that plots the population against the the metros rides in each city. Different plots highlight different continent. 
 
-Data
-----------
+Data on the CSV table
+----------------------
 
-The data are grouped by cities. Data on subway systems were obtained from two Wikipedia tables ([List of Metro Systems](http://en.wikipedia.org/wiki/List_of_metro_systems), and [Metro systems by annual passenger rides](http://en.wikipedia.org/wiki/Metro_systems_by_annual_passenger_rides)). Were only considered systems that were present in both articles.
+The data on [CSV table](https://github.com/celacanto/metro-systems-around-the-world/blob/master/table/subway.csv) are grouped by cities. Data on subway systems were obtained from two Wikipedia tables ([List of Metro Systems](http://en.wikipedia.org/wiki/List_of_metro_systems), and [Metro systems by annual passenger rides](http://en.wikipedia.org/wiki/Metro_systems_by_annual_passenger_rides)). Were only considered systems that were present in both articles.
 
 Population data for each city were mostly obtained from [MaxMind](http://www.maxmind.com/en/web_services_omni)
 
-Here's a summary of the meaning of the not self explanatory columns of the [CSV table](https://github.com/celacanto/metro-systems-around-the-world/blob/master/table/subway.csv):
+Here's a summary of the meaning of the not self explanatory columns:
 
 * **Year.opened** -- Year in which the first  systems considered was opened in the city
 * **Rides** -- Rides sum of the systems considered for the city in one year.
